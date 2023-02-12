@@ -1316,7 +1316,6 @@ a {
 
 .courses-page .image img:not(.avatar) {
     width: 100%;
-    background-size: cover;
 }
 
 .courses-page .box .avatar {
