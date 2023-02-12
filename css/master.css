@@ -1314,8 +1314,10 @@ a {
     overflow: hidden;
 }
 
-.courses-page .image img:not(.avatar) {
-    width: 100%;
+@media (max-width: 767px) {
+    .courses-page .image img:not(.avatar) {
+        width: 200px;
+    }
 }
 
 .courses-page .box .avatar {
